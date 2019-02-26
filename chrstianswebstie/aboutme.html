@@ -1,0 +1,166 @@
+<!doctype html>
+ <html lang="en">
+   <head>`
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta charset="utf-8">
+ </head>
+ <head>
+<style>
+body {
+    background-image: url("images/spongebobbackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+</style>
+</head>
+    <h1>These are some facts about me.</h1>
+    <img src="images/aboutme/aboutme.jpg" alt="about me picture" height="250">
+    <h1>Hi, I am Christian Iversen. I am 15 years old. I live in Coronado, California. I have been in the Coronado Unified School District for three years and I am a sophmore in high school.</h1>
+    <img src="images/aboutme/coronado.jpg" height="194" alt="coronado picture">
+    <h1>I have two dogs and one cat.</h1>
+   <img src="images/aboutme/lucy.jpg"  alt="lucy" style="float:left;width:154px;height:190px;">
+   <img src="images/aboutme/kat.jpg"  alt="hope" style="float:none;width:219px;height:190px;">
+   <img src="images/aboutme/izzie.jpg" alt="izzie" style="float:right;width:355px;height:190px;">
+ </center>
+ <h1> LUCY < ------------------- HOPE -------------------- > IZZIE </h1>
+  </body>
+   <head>
+  <style>
+  body {
+    background-color: #00e6dc;
+    color: midnightblue;
+    text-align: center;
+    font-family:"comic sans ms", cursive, sans-serif;
+    font-size: 20px;
+}</style>
+</head>
+<head>
+  <h3><img src="spongebobgif/spongebob_4.gif" alt="spongebob dancing" style="width:400px;height:400px;">
+  <style> 
+h3 {
+    position: absolute;
+    left:1025px;
+    top: 470px;
+}</style></h3>
+  </head>  
+  <head>
+  <h4><img src="spongebobgif/patrick_2.gif" alt="patrick blowing bubbles" style="width:300px;height:300px;">
+  <style> 
+h4 {
+    position: absolute;
+    left:200px;
+    top:75px;
+}</style></h4>
+  </head>  
+<audio id="myAudio">
+  <source src="horse.mp3" type="audio/mpeg">
+</audio>
+<h6><button onclick="playAudio()" type="button.1"><img src="images/playbutton.png" alt="play button" height="50"><style> 
+h6 {
+    position: absolute;
+    left:1175px;
+    top:25px;
+}</style></h6></button>
+<h7><button onclick="pauseAudio()" type="button.2"><img src="images/pausebutton.png" alt="pause button" height="50"><style> 
+h7 {
+    position: absolute;
+    left:1240px;
+    top:56px;
+}</style></h7></button> 
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+    x.play(); 
+} 
+
+function pauseAudio() { 
+    x.pause(); 
+} 
+</script>
+</head>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+  <a href="aboutme.html">About Me</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="resume.html">Resume</a>
+  <a href="tipsandtricks.html">Tips & Tricks</a>
+</div>
+
+<div id="main">
+  <h9><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open<style> 
+h9 {
+    position: fixed;
+    left:5px;
+    top: -5px;
+    }</style></span></h9>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</body>
+</html>
